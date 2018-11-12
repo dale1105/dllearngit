@@ -27,4 +27,13 @@
 #git reset HEAD <file>：可以把暂存区的修改撤销掉，重新放回工作区，再次清除，需要用到git checkout
 
 #git 删除：直接在文件管理器中把没用的文件删除，或者用rm命令删除
+#如果确实要从版本库中删除该文件，就用命令git rm删掉，并且git commit。
+
+#git push：把当前分支master推送到远程，第一次推送添加了-u参数，不但把本地master分支内容推送到新的master分支，还会关联
+#第二次时，就可以直接使用git push origin master
+#要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git
+#关联后，使用命令git push -u origin master第一次推送master分支的所有内容
+#此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改
+
+
 
