@@ -12,3 +12,8 @@ git is free software distributed under the GPL.
 #更新提交
 #1.git add readme.txt
 #2.git commit
+
+#回滚 :
+#1.git log:查看日志--pretty=oneline，精简成1行
+#2.git reset：回滚
+#3.HEAD表示当前版本，HEAD^表示上个版本，HEAD^^表示上上个版本，HEAD~100表示上100个版本
