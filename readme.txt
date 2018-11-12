@@ -1,5 +1,5 @@
 git is a distributed version control system.
-git is free software.
+git is free software distributed under the GPL.
 
 #git 步骤：
 #1.git init创建空的仓库
