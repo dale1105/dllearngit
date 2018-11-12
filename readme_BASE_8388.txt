@@ -27,5 +27,3 @@ Creating a new branch is quick AND & simple.
 #用git log --graph命令可以看到分支合并图
 
 test --no-ff
-pppppppppppppppp
-123455667
